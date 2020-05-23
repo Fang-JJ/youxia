@@ -1,0 +1,37 @@
+{
+  "id": "1782189",
+  "name": "webapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "991655",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1221178",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "4933156",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "6755280",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    }
+  ]
+}
