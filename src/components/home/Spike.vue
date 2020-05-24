@@ -1,7 +1,7 @@
 <template>
     <div class="spike">
         <swiper :options="swiperOption">
-            <div class="spike-content">
+            <div class="spike-content" @click="toDetail">
                 <swiper-slide>
                 <div class="spike-top">
                     <!-- 限时结束图片 -->
@@ -50,6 +50,13 @@ export default {
                     el:".swiper-pagination"
                 }
             }
+        }
+    },
+    methods:{
+        toDetail(){
+            this.$router.push({
+                path:"/detail"
+            })
         }
     }
 }

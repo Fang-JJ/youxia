@@ -20,7 +20,12 @@ import Home from "../components/home/Home"
     {
       path:"/city",
       name:'city',
-      component:()=>import('../components/city/City')
+      component:()=>import('../components/city/City.vue')
+    },
+    {
+      path:"/detail",
+      name:'detail',
+      component:()=>import('../components/detail/Detail.vue')
     }
 ]
 

@@ -1,6 +1,6 @@
 <template>
     <div class="like">
-        <div class="like-list" v-for="item in likeList" :key="item">
+        <div class="like-list" v-for="(item,index) in likeList" :key="index">
             <div class="like-top">
                 <div class="top-left">
                     <span>{{item.title}}</span>

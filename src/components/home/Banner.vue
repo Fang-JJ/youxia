@@ -9,7 +9,7 @@
         <div class="banner-header">
             <div class="banner-top">
                 <div class="top-left" @click="toCity">
-                    北京
+                    {{cityName}}
                     <i class="iconfont">&#xe6b0;</i>
                 </div>
                 <div class="top-search">
@@ -39,6 +39,7 @@
     </div>
 </template>
 <script>
+import {mapState} from 'vuex'
 export default {
     data(){
         return {
@@ -55,6 +56,9 @@ export default {
                 }
             }
         }
+    },
+    computed:{
+        ...mapState(['cityName'])
     },
     methods:{
         toShow(){
